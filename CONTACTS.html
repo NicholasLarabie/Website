@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style2.css">
-    <link rel="shortcut icon" href="./images/_d7afdcf9-9627-457c-a952-98ea83112317.jpeg"image/x-icon">
+    <link rel="shortcut icon" href="./images/_d7afdcf9-9627-457c-a952-98ea83112317.jpeg" type="image/x-icon">
     <title>CONTACTS</title>
     <!-- this is the Contacts web page that has general company contacts and customer support reps-->
 
@@ -15,7 +15,7 @@
     <header>
         <img src="./images/_d7afdcf9-9627-457c-a952-98ea83112317.jpeg" alt="company" width="1024" height="1024">
         <h1>Fan Industries</h1>
-        <h3>The Go To Company For Your Advance Tech Needs</32>
+        <h3>The Go To Company For Your Advance Tech Needs</h3>
     </header>
     <nav class="top">
         <ul>
@@ -34,35 +34,56 @@
         </ul>
     </nav>
     <main>
-        <div class="intro">
-            <img src="./images/download (1).jpeg" alt="computer" width="896" height="704" ;>
-            <p>This company was founded weriofnerjh ewfjk pweofji weoif weif jweoif jwodijf ijwe ifw i</p>
-        </div>
         <div class="aboutCEO">
-            <img src="./images/OIG112.jpeg" alt="waves" width="270" height="270">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam esse consectetur dolorem provident autem
-                voluptate velit at numquam quibusdam officiis beatae natus impedit ullam doloremque, placeat atque
-                voluptatibus nulla eveniet?</p>
+            <p>Please note that we do our best to help our clients with their questions or needs, so calls are recorded for educational purposes.</p>
         </div>
         <section class="pack">
-            <h4>LATEST COMPANY INFO</h4>
-            <div class="bubble">
-                <h5>R&D</h5>
-                <p>eijwfoief ewre werwer wef wef wef ffwef wef </p>
+            <h4>Our Contcats</h4>
+            <div class="bubble5">
+                <h5>Phone Numbers</h5>
+                <a href="tel:123-332-1234">123-321-1233</a>
             </div>
-            <div class="bubble">
-                <h5>GAMES</h5>
-                <p>eijwfoief ewre werwer wef wef wef ffwef wef </p>
-            </div>
-            <div class="bubble">
-                <h5>GAME DEV</h5>
-                <p>eijwfoief ewre werwer wef wef wef ffwef wef </p>
-            </div>
-            <div class="bubble">
-                <h5>CONTACTS</h5>
-                <p>eijwfoief ewre werwer wef wef wef ffwef wef </p>
+            <div class="bubble5">
+                <h5>Email</h5>
+                <a href="mailto:FAN.ind@outlook.com">FAN.ind@outlook.com</a>
             </div>
         </section>
+        <div class="pack2-0">
+            <h3>Form to Contact</h3>
+            <form class="form1" method="get" action="#" name="contact" id="contact">
+                <label for="fName">First Name: </label>
+                <input type="text" name="fName" id="fName"><br>
+                <label for="lName">Last Name: </label>
+                <input type="text" name="lName" id="lName"><br>
+                <label for="eMail">Email Address: </label>
+                <input type="text" name="eMail" id="eMail"><br>
+                <label for="order">Reason for Contact:</label><br>
+                <input type="radio" id="order" name="rContact">
+                <label for="order">Order</label><br>
+                <input type="radio" id="project" name="rContact">
+                <label for="project">Project</label><br>
+                <input type="radio" id="complaint" name="rContact">
+                <label for="complaint">Complaint</label><br>
+                <label for="additionalInfo">Additional Information</label>
+                <textarea id="additionalInfo" name="additionalInfo" rows="3" cols="50">Enter text here please.</textarea><br>
+                <label for="userPlatform">User Platform:</label>
+                <input list="platform" id="userPlatform" name="userPlatform">
+                <datalist id="platform">
+                    <option value="Mobile"></option>
+                    <option value="Console"></option>
+                    <option value="Desktop"></option>
+                </datalist><br>
+                <input type="submit" value="submit">
+                <input type="button" value="cancel">
+            </form>
+        </div>
+        <div class="pack3-0">
+            <h3>Related Links</h3>
+            <h4>suppliers: </h4>
+            <a href="https://ai.google/">Google AI</a><br>
+            <a href="https://www.ibm.com/ca-en">IBM Canada</a><br>
+            <a href="https://www.lenovo.com/ca/en/?orgRef=https%253A%252F%252Fwww.google.com%252F">Lenovo Canada</a>
+        </div>
     </main>
     <footer>
         <nav>
@@ -72,9 +93,21 @@
                 <li><a href="GAMES.html">GAMES</a></li>
                 <li><a href="GAME_DEV.html">GAME DEV</a></li>
                 <li><a href="CONTACTS.html">CONTACTS</a></li>
-                <li><a href="WHO_WE_ARE">WHO WE ARE</a></li>
+                <li><a href="staff.html">STAFF</a></li>
+                <li><a href="hours.html">HOURS</a></li>
             </ul>
         </nav>
+        <address>
+            <p>1234, Best Company rd.</p><br>
+            <p>Halifax, Nova Scotia</p><br>
+            <p>Postal Code B3K</p><br>
+            <a href="FAN.Industries@outlook.com">FAN.Industries@outlook.com</a><br>
+            <br>
+            <p>All images used are stated in the CSS</p>
+        </address>
+        <div class="copy">
+            <p class="copyright">© FAN Industries 2023</p>
+        </div>
     </footer>
 </body>
 
